@@ -1,0 +1,140 @@
+print("Hello world", end=" ")
+print("Welcome Python")
+print("Laptop","Mouse","Keyboard", sep="|")
+
+#variables
+name1 = "Ravi" 
+age1 =22
+city = "Chennai"
+print(name1,age1,city ,sep="-")
+
+#multi assignment
+
+name1,age1,city= "Ravi",22,"Chennai"
+print("multi assignment:-", name1,age1,city,sep="-")
+
+name1,age1,language= "Meena",20,"True"
+print("multi assignment:-", name1,age1,language)
+
+#INDEXING
+
+name2 ="python"
+print(name2[0])
+print(name2[2])
+print(name2[5])
+
+
+#Arithmetic Operators
+
+#addition
+print(25+10)
+
+#subraction
+print(50-20)
+
+#multiplication
+print(8*5)
+
+#division 
+print(100/10)
+
+#modulus
+print(10%3)
+
+#exponential
+print(2**4) #2^4= 4 4*4=16
+
+#floar division
+print(20//3)
+
+#BODMAS Expression
+print(3+2*5**2) #5**2 = 25 2*25=50 3+50=53
+
+#Assignment Operator
+num1 =50
+additionval = 25
+num1 +=additionval
+
+print(num1)
+
+num2 = 100
+additionval= 10
+num2 /=additionval
+
+print(num2)
+
+#Comparison Operators
+'''
+lessthan  20<15  False
+greaterthan 10>5  True
+lessthaneq 6<=2  false
+greaterthaneq 7>=7 True
+loosytypeeeq 5==5 True
+LoosyNotEq 10!=8 True
+'''
+
+
+print(10>5)
+print(20<15)
+print(5==5)
+print(10!=8)
+print(7>=7)
+print(6<=2)
+
+#String Comparison
+
+a="apple"
+b="Apple"
+
+print("A :-",ord("A"))
+print("a :-",ord("a"))
+
+print(a==b)
+
+#Logical Operators
+
+print(10>5 and 5==5)   #True
+print(5>10 or 10==10)  #True
+print(not(5>2))        #False
+
+#Membership Operator
+
+numbers =[10,20,30,40,50]
+
+print(20 in numbers)     #True
+print(60 in numbers)     #False
+print(30 not in numbers) #False
+
+#Swap Variables
+
+a=10
+b=20
+
+temp = a
+a=b
+b=temp
+
+print(a,b)
+
+#Bitwise XOR
+
+a=6
+b=3
+
+print(a^b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
